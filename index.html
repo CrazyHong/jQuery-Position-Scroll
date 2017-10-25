@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">  
+    <link href="css/kds-sidenav.css" rel="stylesheet">     
+</head>
+
+<body>
+    <section style="width:100%;height: 200px;border-top:1px solid #eee;border-bottom:1px solid #eee;">
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3">
+                <ul class="kds-sidenav">
+                    <li class="menuItem active">
+                        <a href="#home">
+                            <i class="icon-chevron-right"></i> Home
+                        </a>
+                        <!--<ul class="kds-sidenav-submenu">
+                            <li><a href="#">K1</a></li>
+                            <li><a href="#">K2</a></li>
+                            <li><a href="#">K3</a></li>
+                        </ul>-->
+                    </li>
+                    <li class="menuItem">
+                        <a href="#features">
+                            <i class="icon-chevron-right"></i> Features
+                        </a>
+                    </li>
+                    <li class="menuItem">
+                        <a href="#updates">
+                            <i class="icon-chevron-right"></i> Updates
+                        </a>
+                    </li>
+                    <li class="menuItem">
+                        <a href="#installation">
+                            <i class="icon-chevron-right"></i> Installation
+                        </a>
+                    </li>
+                    <li class="menuItem">
+                        <a href="#one-pager">
+                            <i class="icon-chevron-right"></i> One Pager
+                        </a>
+                    </li>
+                    <li class="menuItem">
+                        <a href="#extras">
+                            <i class="icon-chevron-right"></i> Extras
+                        </a>
+                    </li>
+                    <li class="menuItem">
+                        <a href="#wordpress">
+                            <i class="icon-chevron-right"></i> Wordpress
+                        </a>
+                    </li>
+                    <li class="menuItem">
+                        <a href="#contact">
+                            <i class="icon-chevron-right"></i> Contact
+                        </a>
+                    </li>                    
+                </ul>
+            </div>
+            <div class="col-lg-9 col-md-9 details">
+                <section id="home">
+                    <div class="page-header">
+                        <h2>Home</h2>
+                    </div>
+                 </section>
+                 <section id="features">
+                     <div class="page-header">
+                        <h2>Features</h2>
+                    </div>
+                 </section>
+                 <section id="updates">
+                     <div class="page-header">
+                        <h2>Updates</h2>
+                    </div>
+                 </section>
+                 <section id="installation">
+                     <div class="page-header">
+                        <h2>Installation</h2>
+                    </div>
+                 </section>
+                 <section id="one-pager">
+                     <div class="page-header">
+                        <h2>One Pager</h2>
+                    </div>
+                 </section>
+                 <section id="extras">
+                     <div class="page-header">
+                        <h2>Extras</h2>
+                    </div>
+                 </section>
+                 <section id="wordpress">
+                     <div class="page-header">
+                        <h2>Wordpress</h2>
+                    </div>
+                 </section>
+                 <section id="contact">
+                     <div class="page-header">
+                        <h2>Contact</h2>
+                    </div>
+                 </section>                 
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stickUp.min.js"></script>
+    <script type="text/javascript">
+      jQuery(function ($) {
+        $(document).ready(function () {
+          $('.kds-sidenav').stickUp({
+            parts: {
+              0: 'home',
+              1: 'features',
+              2: 'updates',
+              3: 'installation',
+              4: 'one-pager',
+              5: 'extras',
+              6: 'wordpress',
+              7: 'contact'
+            },
+            itemClass: 'menuItem',
+            itemHover: 'active',
+            topMargin: 'auto'
+          });
+        });
+      });
+    </script>
+</body>
+</html>

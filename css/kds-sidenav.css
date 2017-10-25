@@ -1,0 +1,66 @@
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.kds-stick-top{
+        position: fixed;
+        top:40px;       
+    }
+    .nav-list > .active > a, .nav-list > .active > a:hover{
+        color:#fff;
+        background-color: #08c !important;
+    }       
+    .details>section{
+        height: calc(100vh - 40px);
+    }
+
+    .kds-sidenav {
+	margin: 30px 0px 0px; padding: 0px; border-radius: 6px; 
+    width: 228px; box-shadow: 0px 1px 4px rgba(0,0,0,0.065); 
+    background-color: rgb(255, 255, 255); 
+    -webkit-border-radius: 6px; -moz-border-radius: 6px; -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .065); 
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .065);    
+}
+.kds-sidenav > li > a {
+	margin: 0px 0px -1px; padding: 8px 14px; border: 1px solid rgb(229, 229, 229); border-image: none; display: block;    
+}
+.kds-sidenav > li:first-child > a {
+	border-radius: 6px 6px 0px 0px; -webkit-border-radius: 6px 6px 0 0; -moz-border-radius: 6px 6px 0 0;
+}
+.kds-sidenav > li:last-child > a {
+	border-radius: 0px 0px 6px 6px; -webkit-border-radius: 0 0 6px 6px; -moz-border-radius: 0 0 6px 6px;
+}
+.kds-sidenav > .active > a {
+	padding: 9px 15px; border: 0px currentColor; border-image: none; position: relative; z-index: 2; box-shadow: inset 1px 0px 0px rgba(0,0,0,0.1), inset -1px 0px 0px rgba(0,0,0,0.1); text-shadow: 0px 1px 0px rgba(0,0,0,0.15); -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1), inset -1px 0 0 rgba(0, 0, 0, .1); -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1), inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+.kds-sidenav .icon-chevron-right {
+	margin-top: 2px; margin-right: -6px; float: right; opacity: 0.25;
+}
+.kds-sidenav > li > a:hover {
+	background-color: rgb(245, 245, 245);
+}
+.kds-sidenav a:hover .icon-chevron-right {
+	opacity: 0.5;
+}
+.kds-sidenav .active .icon-chevron-right {
+	opacity: 1; background-image: url("../img/glyphicons-halflings-white.png");
+}
+.kds-sidenav .active a:hover .icon-chevron-right {
+	opacity: 1; background-image: url("../img/glyphicons-halflings-white.png");
+}
+
+.kds-sidenav-submenu{
+    padding:0;
+}
+
+.kds-sidenav-submenu>li>a{
+    margin: 0px 0px -1px; padding: 8px 14px; border: 1px solid rgb(229, 229, 229); border-image: none; display: block;
+}
+
+.kds-sidenav-submenu>li>a:hover{
+    background-color: rgb(245, 245, 245);
+}
